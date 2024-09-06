@@ -1,0 +1,21 @@
+CREATE DATABASE  IF NOT EXISTS `face_recognizer`;
+
+USE `face_recognizer`;
+
+
+DROP TABLE IF EXISTS `student`;
+
+CREATE TABLE `student` (
+  `name` varchar(45) DEFAULT NULL,
+  `class` varchar(45) DEFAULT NULL,
+  `sec` varchar(45) DEFAULT NULL,
+  `admno` varchar(45) NOT NULL,
+  `photosample` varchar(45) DEFAULT NULL,
+  `securityQ` varchar(45) DEFAULT NULL,
+  `securityA` varchar(45) DEFAULT NULL,
+  `password` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`admno`)
+);
+
+INSERT INTO `student` VALUES ('Sample-69','12-Non-Medical','A','1','Y','Your phone no.','1234567890','sample');
+
