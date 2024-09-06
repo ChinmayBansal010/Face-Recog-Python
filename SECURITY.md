@@ -1,5 +1,6 @@
-#Security Policy
-##Introduction
+# Security Policy
+
+## Introduction
 This project implements a Face Recognition Attendance System using Python. Given the sensitive nature of biometric data, we are committed to ensuring that the software is secure, and that any vulnerabilities are promptly addressed.
 
 Supported Versions
