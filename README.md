@@ -1,6 +1,6 @@
 # Face-Recog-Python
 
-**1**  **Install** the file **Face Recognition Attendance-1.1.0-win64.md** .
+**1**  **Create** the file **Face Recognition Attendance-1.1.0-win64.md** using **setup.py** and command **python setup.py bdist_msi**.
 
 **2** Then Install MYSQL with the followng instructions: 
 
