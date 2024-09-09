@@ -1,10 +1,4 @@
 # Face-Recog-Python
-<style>
-    body {
-        background-color: #1e1e1e;
-        color: #ffffff;
-    }
-</style>
 
 **1**  **Install** the file **Face Recognition Attendance-1.1.0-win64.md** .
 
