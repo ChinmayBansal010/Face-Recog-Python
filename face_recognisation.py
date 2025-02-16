@@ -48,9 +48,9 @@ class Face_recognisation:
     def send_message(self):
 
         try:
-            api_id = '25887055'
-            api_hash = 'e9410813c15dfff7705ae5ad3b1ed783'
-            token = '6516251507:AAFsvvh3e1ScH6eGPwOZtg8Xaygxoie27UE'
+            api_id = 'api_id'
+            api_hash = 'api_hash'
+            token = 'token'
             now=datetime.now()
             d1=now.strftime("%d/%m/%Y")
             dtString = now.strftime("%H:%M:%S")
@@ -89,22 +89,6 @@ class Face_recognisation:
             except Exception as e:
                 messagebox.showerror("Error : ",f"{es}",parent=self.root4)
             client.disconnect()
-
-            # bot_token = '6516251507:AAFsvvh3e1ScH6eGPwOZtg8Xaygxoie27UE'
-            # # Initialize the bot
-            # bot = telebot.TeleBot(bot_token)
-
-            # # Define the user or chat you want to send the message to
-            # user_or_chat_id = 6113212496  # Replace with the user or chat ID
-
-            # # The message you want to send
-            # message = "Your message goes here."
-
-            # # Send the message using the bot
-            # bot.send_message(user_or_chat_id, message)
-
-            # # Run the bot
-            # bot.polling()
         
         except Exception as es:
             messagebox.showerror("Error: ",f"{es}",parent=self.root4)
